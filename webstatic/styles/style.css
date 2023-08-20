@@ -1,0 +1,87 @@
+header {
+    height: 80px;
+    background-color: bisque;
+    color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Satisfy', cursive;
+    font-size: xx-large;
+}
+
+header button {
+    padding: 10px 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: larger;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+header button:hover {
+    background-color: antiquewhite;
+}
+
+.welcome {
+    height: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.welcome h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+.welcome p {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Satisfy', cursive;
+    font-size: 20px;
+}
+
+.catalogue {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.bicycle-card {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 300px;
+    width: 250px;
+    align-self: center;
+}
+
+.bicycle-card h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.bicycle-card p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+}
